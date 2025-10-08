@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:sand"
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 4,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:fire_resistance",
+                "duration": 1200,
+                "ambient": true
+              }
+            ],
+            "probability": 0.2
+          }
+        ]
+      },
+      "minecraft:food": {
+        "nutrition": 7,
+        "saturation": 0
+      },
+      "minecraft:item_model": "minecraft:cooked_porkchop",
+      "minecraft:item_name": "Cured Sand"
+    },
+    "count": 1,
+    "id": "minecraft:bread"
+  }
+}

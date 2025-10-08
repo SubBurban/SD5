@@ -1,0 +1,2 @@
+execute if predicate subdatafive:heat_up unless score @s heat matches 10.. if predicate {condition:"minecraft:random_chance",chance:0.8} run return run function subdatafive:heat/heat_up
+execute if predicate subdatafive:cool_down unless score @s heat matches ..-10 if predicate {condition:"minecraft:random_chance",chance:0.8} run return run function subdatafive:heat/heat_down

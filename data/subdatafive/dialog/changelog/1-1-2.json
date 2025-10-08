@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:notice",
+  "title": "SubData 5 v1.1.2: Changelog",
+  "external_title": "Changelog v1.1.2",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "Rebalanced hydration to decrease less quickly, removed sound\n\n"
+      },
+      {
+        "text": "Added Changelogs\n\n"
+      }
+    ]
+  },
+  "action": {
+    "label": "Got it!"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    "melon_seeds",
+    "wheat_seeds",
+    "pumpkin_seeds",
+    "beetroot_seeds",
+    "torchflower_seeds"
+  ],
+  "result": {
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 1,
+        "on_consume_effects": []
+      },
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation": 3,
+        "can_always_eat": true
+      },
+      "minecraft:item_name": "Prismarice Crystals",
+      "minecraft:lore": [
+        {
+          "text": "Sometimes, you have to get",
+          "color": "dark_gray"
+        },
+        {
+          "text": "really hot for something cold.",
+          "color": "dark_gray"
+        }
+      ]
+    },
+    "id": "minecraft:prismarine_crystals"
+  },
+  "category": "food",
+  "cookingtime": 1200
+}

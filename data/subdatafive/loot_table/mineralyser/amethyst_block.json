@@ -1,0 +1,63 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:amethyst_shard",
+                    "weight": 23,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "binomial",
+                                "n": 2,
+                                "p": 0.7
+                            },
+                            "add": true
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:amethyst_shard",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Agaminor's Blade"
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "Can be upgraded to a Sword",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "using the Gear Station",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "id": "agaminor_blade"
+                                },
+                                "!max_stack_size": {},
+                                "rarity": "uncommon"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "subdatafive:mineralyser/amethyst_block"
+}

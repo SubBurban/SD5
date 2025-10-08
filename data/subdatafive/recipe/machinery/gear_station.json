@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "#minecraft:planks",
+    "W": "#minecraft:swords",
+    "D": "minecraft:diamond",
+    "S": "minecraft:smithing_table",
+    "G": "#minecraft:chest_armor"
+  },
+  "pattern": [
+    "WSG",
+    "#D#",
+    "###"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": "Gear Station",
+      "minecraft:entity_data": {
+        "id": "minecraft:interaction",
+        "Tags": [
+            "custom_block",
+            "block_controller",
+            "gear_station",
+            "yet_to_initialise"
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:wither_skeleton_spawn_egg"
+  }
+}

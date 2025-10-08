@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:notice",
+  "title": "SubData 5 v1.3 Midgame Update: Changelog",
+  "external_title": "Changelog v1.3",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "Getting cold down here! Added more ways to boost your body temperature through movement\n\n"
+      },
+      {
+        "text": "Increased nutrition value of Cured Sand\n\n"
+      },
+      {
+        "text": "Added Prismaridian Armour as an upgrade to diamond, which keeps you hydrated in the Nether (like Prismarine) but also offers diamond-level protection. Note: It's not fireproof!\n\n"
+      },
+      {
+        "text": "Added a few custom enchantments, all available in the Enchanting Table for now. Note that Silk Touch has been nerfed for Bee Nests and Ice. Snowballs are obtainable through clay\n\n"
+      },
+      {
+        "text": "Modified some other vanilla enchantments, maybe more to follow\n\n"
+      },
+      {
+        "text": "Some licensing and credit stuff\n\n"
+      },
+      {
+        "text": "Fixed Bugs:\nPrismarice may only be eaten when hungry\n\n"
+      }
+    ]
+  },
+  "action": {
+    "label": "Got it!"
+  }
+}

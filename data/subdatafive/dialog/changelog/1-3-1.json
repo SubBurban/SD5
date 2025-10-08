@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:notice",
+  "title": "SubData 5 v1.3.1: Changelog",
+  "external_title": "Changelog v1.3.1",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "Getting VERY cold down here! Added Soul Sand Armour, which overhydrates (like Prismarine and Prismaridian) but also keeps you warm\n\n"
+      },
+      {
+        "text": "Fixed Bugs:\nPrismarice from blasting may (still) only be eaten when hungry\nNot all heat sources added in the last Update actually do something\n\n"
+      }
+    ]
+  },
+  "action": {
+    "label": "Got it!"
+  }
+}

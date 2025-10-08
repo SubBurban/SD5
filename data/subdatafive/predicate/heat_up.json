@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:value_check",
+    "value": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "temperatus",
+        "scale": 0.005
+    },
+    "range": {
+        "min": {
+            "type": "minecraft:score",
+            "target": "this",
+            "score": "heat",
+            "scale": 17
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "prismaridian_armor",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:prismarine_crystals",
+    "Y": "minecraft:diamond_leggings",
+    "Z": "minecraft:obsidian"
+  },
+  "pattern": [
+    "ZXZ",
+    "XYX",
+    "ZXZ"
+  ],
+  "result": {
+    "components": {
+      "minecraft:dyed_color": 1051938,
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:dyed_color"
+        ]
+      },
+      "minecraft:custom_data": {
+        "TempModifier": -3,
+        "OverHydrate": true
+      },
+      "item_model": "minecraft:leather_leggings",
+      "minecraft:item_name": "Prismaridian Leggings",
+      "attribute_modifiers": [
+        {
+          "id": "minecraft:armor.leggings",
+          "amount": 6,
+          "type": "minecraft:armor",
+          "operation": "add_value"
+        },
+        {
+          "id": "minecraft:armor.leggings",
+          "amount": 2,
+          "type": "minecraft:armor_toughness",
+          "operation": "add_value"
+        }
+      ],
+      "minecraft:max_damage": 514,
+      "minecraft:equippable": {
+        "slot": "legs",
+        "asset_id": "minecraft:leather"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Wet as a Guardian, tough",
+          "color": "dark_gray"
+        },
+        {
+          "text": "as ... those shiny stones.",
+          "color": "dark_gray"
+        }
+      ],
+      "!damage_resistant": {}
+    },
+    "count": 1,
+    "id": "minecraft:netherite_leggings"
+  }
+}

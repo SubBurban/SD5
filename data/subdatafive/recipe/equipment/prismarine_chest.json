@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "prismarine_armor",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:prismarine_crystals",
+    "Y": "minecraft:iron_chestplate"
+  },
+  "pattern": [
+    "XXX",
+    "XYX",
+    "XXX"
+  ],
+  "result": {
+    "components": {
+      "minecraft:dyed_color": 4297362,
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:dyed_color"
+        ]
+      },
+      "minecraft:custom_data": {
+        "TempModifier": -4,
+        "OverHydrate": true
+      },
+      "item_model": "minecraft:leather_chestplate",
+      "minecraft:item_name": "Prismarine Chest",
+      "!attribute_modifiers": {},
+      "minecraft:max_damage": 734,
+      "minecraft:equippable": {
+        "slot": "chest",
+        "asset_id": "minecraft:leather"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Originally designed for aquatic",
+          "color": "dark_gray"
+        },
+        {
+          "text": "Guardians, the armour's moistness",
+          "color": "dark_gray"
+        },
+        {
+          "text": "is unprecedented and can withstand",
+          "color": "dark_gray"
+        },
+        {
+          "text": "even the driest of places.",
+          "color": "dark_gray"
+        },
+        {
+          "text": "Suitable for humans only when",
+          "color": "dark_gray"
+        },
+        {
+          "text": "counter-acted accordingly!",
+          "color": "dark_gray"
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:iron_chestplate"
+  }
+}

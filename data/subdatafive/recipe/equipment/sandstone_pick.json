@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sandstone_picks",
+  "category": "equipment",
+  "pattern": [
+    "#",
+    "+"
+  ],
+  "key": {
+    "#": "minecraft:sandstone",
+    "+": "minecraft:stick"
+  },
+  "result": {
+    "components": {
+      "minecraft:item_model": "minecraft:brush",
+      "minecraft:item_name": "Sandstone Pick",
+      "minecraft:max_damage": 12,
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/pickaxe",
+            "speed": 3,
+            "correct_for_drops": true
+          }
+        ],
+        "can_destroy_blocks_in_creative": false
+      }
+    },
+    "id": "minecraft:wooden_pickaxe"
+  }
+}

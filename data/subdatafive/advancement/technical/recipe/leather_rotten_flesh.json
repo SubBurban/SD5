@@ -1,0 +1,40 @@
+{
+  "parent": "subdatafive:technical/recipe/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "subdatafive:leather_smoking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_the_recipe2": {
+      "conditions": {
+        "recipe": "subdatafive:leather_campfire"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "recipe_criteria": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:rotten_flesh"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_the_recipe2",
+      "recipe_criteria"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "subdatafive:leather_smoking",
+      "subdatafive:leather_campfire"
+    ]
+  }
+}

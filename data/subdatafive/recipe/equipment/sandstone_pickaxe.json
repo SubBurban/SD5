@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sandstone_picks",
+  "category": "equipment",
+  "pattern": [
+    "###",
+    " + ",
+    " + "
+  ],
+  "key": {
+    "#": "minecraft:sandstone",
+    "+": "minecraft:stick"
+  },
+  "result": {
+    "components": {
+      "minecraft:item_name": "Sandstone Pickaxe",
+      "minecraft:max_damage": 72,
+      "minecraft:enchantable": {
+        "value": 28
+      },
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/pickaxe",
+            "speed": 6,
+            "correct_for_drops": true
+          }
+        ],
+        "default_mining_speed": 0.1,
+        "damage_per_block": 2
+      }
+    },
+    "id": "minecraft:stone_pickaxe"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "values": [
+        "tungsten:outside_level/if_down",
+        "tungsten:outside_level/if_east",
+        "tungsten:outside_level/if_north",
+        "tungsten:outside_level/if_south",
+        "tungsten:outside_level/if_up",
+        "tungsten:outside_level/if_west"
+    ]
+}

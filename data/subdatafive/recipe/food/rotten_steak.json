@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "minecraft:rotten_flesh",
+  "result": {
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 3,
+        "on_consume_effects": []
+      },
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 1
+      },
+      "minecraft:item_model": "minecraft:cooked_beef",
+      "minecraft:item_name": "Medium Rare Rotten Flesh"
+    },
+    "id": "minecraft:rotten_flesh"
+  }
+}

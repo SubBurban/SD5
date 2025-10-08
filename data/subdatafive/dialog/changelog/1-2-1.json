@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:notice",
+  "title": "SubData 5 v1.2.1: Changelog",
+  "external_title": "Changelog v1.2.1",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "Added recipe for Red Sand using Netherrack\n\n"
+      },
+      {
+        "text": "Added Netherrack Armour (Upgrade of Golden) which keeps even warmer underground than leather\n\n"
+      }
+    ]
+  },
+  "action": {
+    "label": "Got it!"
+  }
+}

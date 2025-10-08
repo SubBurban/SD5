@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "smooth_stone",
+    "G": "minecraft:glass",
+    "+": "minecraft:lava_bucket",
+    "M": "minecraft:magma_block",
+    "C": "minecraft:cauldron"
+  },
+  "pattern": [
+    "G+G",
+    "MCM",
+    "###"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": "Heating Unit",
+      "minecraft:lore": [
+        {
+          "text": "Warms a small region",
+          "color": "dark_gray"
+        }
+      ],
+      "minecraft:entity_data": {
+        "id": "minecraft:interaction",
+        "Tags": [
+            "custom_block",
+            "block_controller",
+            "heating_unit",
+            "yet_to_initialise"
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:magma_cube_spawn_egg"
+  }
+}

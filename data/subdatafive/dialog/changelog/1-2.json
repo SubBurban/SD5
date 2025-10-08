@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:notice",
+  "title": "SubData 5 v1.2 Nether Update: Changelog",
+  "external_title": "Changelog v1.2",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "Added specific Temperature for the Nether\n\n"
+      },
+      {
+        "text": "Rebalanced Hydration for the Nether (a dry and unlively place which depletes your hydration bar in a matter of mere seconds)\n\n"
+      },
+      {
+        "text": "Added Prismarine Armour which eliminates passive Hydration losses but drowns the player outside of the Nether\n\n"
+      },
+      {
+        "text": "Reworked the balance between temperature and heat. Hopefully, the system is now more reliable and transparent\n\n"
+      },
+      {
+        "text": "Added Prismarice, which can be smelted or blasted from seeds\n\n"
+      },
+      {
+        "text": "Players now gain a bit of cooling when increasing their Hydration\n\n"
+      },
+      {
+        "text": "Rebalanced underground classification\n\n"
+      },
+      {
+        "text": "Fixed Bugs:\nBonus Hydration cooling applies to fast due to an oversight\n\n"
+      }
+    ]
+  },
+  "action": {
+    "label": "Got it!"
+  }
+}

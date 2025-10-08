@@ -1,0 +1,29 @@
+{
+	"pack": {
+		"pack_format": 81,
+		"supported_formats": {
+			"min_inclusive": 77,
+			"max_inclusive": 81
+		},
+		"description": [
+			{
+				"text": "SubData 5",
+				"color": "#E5593D"
+			},
+			{
+				"text": "\nThe official Datapack for SubBurban 5\nDeveloped by TrenceBence",
+				"color": "dark_aqua"
+			},
+			[
+				{
+					"color": "gray",
+					"text": "\nVersion: "
+				},
+				{
+					"color": "yellow",
+					"text": "v1.4.2"
+				}
+			]
+		]
+	}
+}

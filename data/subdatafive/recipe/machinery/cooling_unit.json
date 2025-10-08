@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "smooth_stone",
+    "G": "minecraft:glass",
+    "+": "minecraft:water_bucket",
+    "M": "minecraft:snowball",
+    "C": "minecraft:cauldron"
+  },
+  "pattern": [
+    "G+G",
+    "MCM",
+    "###"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": "Cooling Unit",
+      "minecraft:lore": [
+        {
+          "text": "Cools a small region",
+          "color": "dark_gray"
+        }
+      ],
+      "minecraft:entity_data": {
+        "id": "minecraft:interaction",
+        "Tags": [
+            "custom_block",
+            "block_controller",
+            "cooling_unit",
+            "yet_to_initialise"
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:breeze_spawn_egg"
+  }
+}

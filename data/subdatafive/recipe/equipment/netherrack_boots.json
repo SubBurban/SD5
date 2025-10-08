@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "netherrack_armor",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:netherrack",
+    "Y": "minecraft:golden_boots"
+  },
+  "pattern": [
+    "XXX",
+    "XYX",
+    "XXX"
+  ],
+  "result": {
+    "components": {
+      "minecraft:dyed_color": 7148321,
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:dyed_color"
+        ]
+      },
+      "minecraft:custom_data": {
+        "TempModifier": 12
+      },
+      "item_model": "minecraft:leather_boots",
+      "minecraft:item_name": "Netherrack Boots",
+      "attribute_modifiers": [
+        {
+          "id": "minecraft:armor.boots",
+          "amount": 2,
+          "type": "minecraft:armor",
+          "operation": "add_value"
+        }
+      ],
+      "minecraft:max_damage": 218,
+      "minecraft:equippable": {
+        "slot": "feet",
+        "asset_id": "minecraft:leather"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Cozy!",
+          "color": "dark_gray"
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:golden_boots"
+  }
+}

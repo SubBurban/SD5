@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:smooth_sandstone"
+  },
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "result": {
+    "components": {
+      "minecraft:dyed_color": 15062380,
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:dyed_color"
+        ]
+      },
+      "minecraft:custom_data": {
+        "TempModifier": -2
+      },
+      "minecraft:item_name": "Sandstone Boots"
+    },
+    "count": 1,
+    "id": "minecraft:leather_boots"
+  }
+}

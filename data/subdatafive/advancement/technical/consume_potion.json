@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "consume": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "subdatafive:event/consume_potion"
+  }
+}

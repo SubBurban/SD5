@@ -1,0 +1,60 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:empty",
+                    "weight": 9
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:quartz",
+                    "weight": 12
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:feather",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Diorite Crystal"
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "Can be used to upgrade",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "gear at the Gear Station",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "id": "diorite_crystal"
+                                },
+                                "item_model": "minecraft:white_dye",
+                                "max_stack_size": 16
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "subdatafive:mineralyser/diorite"
+}

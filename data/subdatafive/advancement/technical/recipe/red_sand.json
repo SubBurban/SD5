@@ -1,0 +1,32 @@
+{
+  "parent": "subdatafive:technical/recipe/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "subdatafive:red_sand"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "recipe_criteria": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherrack"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "recipe_criteria"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "subdatafive:red_sand"
+    ]
+  }
+}

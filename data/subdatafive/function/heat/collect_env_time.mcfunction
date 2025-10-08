@@ -1,0 +1,25 @@
+#Time of Day (3 Points are 1°C, in Riyadh, starting at 6 am with 33°C)
+execute if score @s calc-2 matches 0..999 run scoreboard players add @s temperature 0
+execute if score @s calc-2 matches 1000..1999 run scoreboard players add @s temperature 6
+execute if score @s calc-2 matches 2000..2999 run scoreboard players add @s temperature 12
+execute if score @s calc-2 matches 3000..3999 run scoreboard players add @s temperature 18
+execute if score @s calc-2 matches 4000..4999 run scoreboard players add @s temperature 21
+execute if score @s calc-2 matches 5000..5999 run scoreboard players add @s temperature 24
+execute if score @s calc-2 matches 6000..6999 run scoreboard players add @s temperature 27
+execute if score @s calc-2 matches 7000..7999 run scoreboard players add @s temperature 30
+execute if score @s calc-2 matches 8000..8999 run scoreboard players add @s temperature 33
+execute if score @s calc-2 matches 9000..9999 run scoreboard players add @s temperature 36
+execute if score @s calc-2 matches 10000..10999 run scoreboard players add @s temperature 39
+execute if score @s calc-2 matches 11000..11999 run scoreboard players add @s temperature 36
+execute if score @s calc-2 matches 12000..12999 run scoreboard players add @s temperature 33
+execute if score @s calc-2 matches 13000..13999 run scoreboard players add @s temperature 30
+execute if score @s calc-2 matches 14000..14999 run scoreboard players add @s temperature 27
+execute if score @s calc-2 matches 15000..15999 run scoreboard players add @s temperature 24
+execute if score @s calc-2 matches 16000..16999 run scoreboard players add @s temperature 21
+execute if score @s calc-2 matches 17000..17999 run scoreboard players add @s temperature 18
+execute if score @s calc-2 matches 18000..18999 run scoreboard players add @s temperature 15
+execute if score @s calc-2 matches 19000..19999 run scoreboard players add @s temperature 12
+execute if score @s calc-2 matches 20000..20999 run scoreboard players add @s temperature 9
+execute if score @s calc-2 matches 21000..21999 run scoreboard players add @s temperature 6
+execute if score @s calc-2 matches 22000..22999 run scoreboard players add @s temperature 3
+execute if score @s calc-2 matches 23000..23999 run scoreboard players add @s temperature 0

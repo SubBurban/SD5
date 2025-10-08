@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": {
+    "text": "SubData 5 Changelog",
+    "color": "gold"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "Any Questions or Feedback?\nGet in touch with ",
+        "color": "gray"
+      },
+      {
+        "text": "TrenceBence",
+        "color": "green"
+      },
+      " on Social Media!"
+    ]
+  },
+  "external_title": "SD5 Changelogs",
+  "exit_action": {
+    "label": "Done",
+    "width": 50
+  },
+  "columns": 1,
+  "dialogs": "#subdatafive:changelogs"
+}

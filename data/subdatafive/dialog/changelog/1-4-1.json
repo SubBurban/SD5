@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:notice",
+  "title": "SubData 5 v1.4.1: Changelog",
+  "external_title": "Changelog v1.4.1",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "Began work on the Tungsten Skylight Calculation system, whose performance is too low to be used widely for now\n\n"
+      },
+      {
+        "text": "Reduced hydration impact from sprinting and jumping\n\n"
+      },
+      {
+        "text": "Qualitatively reworked underground classification again (partially, only, due to Tungsten issues)\n\n"
+      }
+    ]
+  },
+  "action": {
+    "label": "Got it!"
+  }
+}

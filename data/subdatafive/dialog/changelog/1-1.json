@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:notice",
+  "title": "SubData 5 v1.1: Changelog",
+  "external_title": "Changelog v1.1",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "Added Sandstone Pick and Sandstone Pickaxe\n\n"
+      },
+      {
+        "text": "Added Sandstone Armour which cools the wearer slightly\n\n"
+      },
+      {
+        "text": "Vanilla armour now increases temperature, with leather having the highest impact\n\n"
+      },
+      {
+        "text": "Rebalanced sources of high temperature: burning, sprinting, proximity to fire and campfires\n\n"
+      },
+      {
+        "text": "Greatly rebalanced underground temperatures (subject to further changes)\n\n"
+      },
+      {
+        "text": "Rotten Flesh can now be smoked (campfire, smoker) for leather and smelted (furnace) for Medium Rare Rotten Flesh\n\n"
+      },
+      {
+        "text": "Fixed Bugs:\nExtreme Heat Damage is classified as freezing\nHydration can exceed its maximum value\n\n"
+      }
+    ]
+  },
+  "action": {
+    "label": "Got it!"
+  }
+}

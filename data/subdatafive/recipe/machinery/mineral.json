@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:quartz",
+    "A": [
+      "minecraft:andesite",
+      "minecraft:polished_andesite"
+    ],
+    "D": [
+      "minecraft:diorite",
+      "minecraft:polished_diorite"
+    ],
+    "G": [
+      "minecraft:granite",
+      "minecraft:polished_granite"
+    ],
+    "O": "minecraft:obsidian",
+    "+": "minecraft:amethyst_block"
+  },
+  "pattern": [
+    "###",
+    "ADG",
+    "O+O"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": "Mineral Analyser",
+      "minecraft:entity_data": {
+        "id": "minecraft:interaction",
+        "Tags": [
+            "custom_block",
+            "block_controller",
+            "mineral_analyser",
+            "yet_to_initialise"
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:strider_spawn_egg"
+  }
+}

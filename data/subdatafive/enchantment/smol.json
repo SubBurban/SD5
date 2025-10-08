@@ -1,0 +1,29 @@
+{
+  "exclusive_set": "subdatafive:bigg",
+  "anvil_cost": 1,
+  "description": "Smol",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:scale",
+        "id": "subdatafive:armor",
+        "amount": -0.292893218813452,
+        "operation": "add_multiplied_total"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 8
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 4
+}

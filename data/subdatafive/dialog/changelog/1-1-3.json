@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:notice",
+  "title": "SubData 5 v1.1.3: Changelog",
+  "external_title": "Changelog v1.1.3",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "Fixed Bugs:\nHydration not properly refilling on death\nSome more hydration oversights\nBar names not updating correctly between versions\n\n"
+      }
+    ]
+  },
+  "action": {
+    "label": "Got it!"
+  }
+}

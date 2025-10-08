@@ -1,0 +1,1 @@
+$bossbar set subdatafive:$(id)$(bar) players @a[scores={$(objective)=$(score)}]

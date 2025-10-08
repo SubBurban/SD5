@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "consume": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+            "nbt": "{Tags:[\"block_controller\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "subdatafive:machinery/interact/click"
+  }
+}

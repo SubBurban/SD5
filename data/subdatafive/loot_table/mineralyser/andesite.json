@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:empty",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:quartz",
+                    "weight": 7
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:frogspawn"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pointed_dripstone",
+                    "weight": 2
+                }
+            ]
+        }
+    ],
+    "random_sequence": "subdatafive:mineralyser/andesite"
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:notice",
+  "title": "SubData 5 v1.4 Machinery Update: Changelog",
+  "external_title": "Changelog v1.4",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "Basically completely revamped Hydration system which now accomodates for sprinting, jumping etc. and is also accessable for future updates\n\n"
+      },
+      {
+        "text": "Added Machinery! There are now custom \"blocks\" in the game which can all be crafted in the crafting table\n\n"
+      },
+      {
+        "text": "Recipes will now be earned throughout the game instead of hardcoded or only after crafting (not all, but many)\n\n"
+      },
+      [
+        {
+          "text": "Added the Mineral Analyser and decided the first blocks which can be analysed, including those pesky -ites. Rewards, including custom items, "
+        },
+        {
+          "text": "mineral items",
+          "italic": true
+        },
+        " and some otherwise unobtainable or difficult vanilla stuff, will be expanded in the future\n\n"
+      ],
+      {
+        "text": "Added heating and cooling units! These ugly little custom blocks act like a mini-beacon, influencing the temperature around. They need to be fueled though ... urgh, can't a single thing be easy in this pack?\n\n"
+      },
+      {
+        "text": "Frogspawn and moss are now obtainable through the analyser and also two custom items, for now without use\n\n"
+      }
+    ]
+  },
+  "action": {
+    "label": "Got it!"
+  }
+}
