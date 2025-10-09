@@ -22,6 +22,8 @@ scoreboard players set #18 calc-1 18
 scoreboard players set #7 calc-1 7
 scoreboard players set #3 calc-1 3
 scoreboard players set #400 calc-1 400
+#Storage
+data modify storage subdatafive:main GearStationRecipes set value [{BaseID:"agaminor_blade",Add:{id:"diorite_crystal",count:16,Text:"16x Diorite Crystal"}},{BaseID:"agaminor_blade",Add:{id:"husk_dye",count:32,Text:"32x Husk Dye"}}]
 #Thirst Bar
 bossbar add subdatafive:thirst0 ""
 bossbar set subdatafive:thirst0 name [{text:"Hydration:",color:"gray"}]
