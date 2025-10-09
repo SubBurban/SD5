@@ -3,15 +3,17 @@
 		"pack_format": 81,
 		"supported_formats": {
 			"min_inclusive": 77,
-			"max_inclusive": 81
+			"max_inclusive": 88
 		},
+		"min_format": 77,
+		"max_format": [88,0],
 		"description": [
 			{
 				"text": "SubData 5",
 				"color": "#E5593D"
 			},
 			{
-				"text": "\nThe official Datapack for SubBurban 5\nDeveloped by TrenceBence",
+				"text": "\nDeveloped by TrenceBence\nThe official Datapack for SubBurban 5",
 				"color": "dark_aqua"
 			},
 			[
