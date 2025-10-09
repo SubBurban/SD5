@@ -1,0 +1,1 @@
+$data modify entity @n[type=text_display,tag=gear_station_display,distance=..0.1] text set value {nbt:"GearStationRecipes[{BaseID:\"$(id)\"}].Add.Text",storage:"subdatafive:main",separator:" or\n",color:"yellow"}

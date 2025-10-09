@@ -1,0 +1,2 @@
+execute positioned ~ ~1 ~ unless data entity @n[type=item_display,tag=gear_station_container,distance=..0.1] item run return run data modify entity @n[type=text_display,tag=gear_station_display,distance=..0.1] text set value {text:"No Item",color:"yellow"}
+execute positioned ~ ~1 ~ run function subdatafive:machinery/gear_station/display_recipes with entity @n[type=item_display,tag=gear_station_container,distance=..0.1] item
