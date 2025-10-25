@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "#logs_that_burn"
+  },
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": "Tool Rod",
+      "minecraft:lore": [
+        {
+          "text": "Can be used as a Base",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "inside the Gear Station",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "id": "tool_rod"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:stick"
+  }
+}

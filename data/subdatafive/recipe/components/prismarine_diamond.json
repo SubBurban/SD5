@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "diamond",
+    "prismarine_crystals"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": "Sparkly Diamond",
+      "minecraft:custom_data": {
+        "id": "prismarine_diamond"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:diamond"
+  }
+}

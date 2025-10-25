@@ -12,7 +12,8 @@
   "result": {
     "components": {
       "minecraft:custom_data": {
-        "Special": "Creative Helmet"
+        "Special": "Creative Helmet",
+        "id": "creative_helmet"
       },
       "item_model": "minecraft:purple_stained_glass",
       "minecraft:item_name": "Creative Helmet",

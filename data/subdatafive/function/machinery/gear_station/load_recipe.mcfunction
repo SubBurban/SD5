@@ -1,0 +1,1 @@
+$data modify storage subdatafive:main CurrentRecipe set from storage subdatafive:main GearStationRecipes[{BaseID:"$(Base)",Add:{id:"$(Add)"}}]
