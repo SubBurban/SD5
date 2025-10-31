@@ -20,7 +20,8 @@
         ]
       },
       "minecraft:custom_data": {
-        "TempModifier": 12
+        "TempModifier": 12,
+        "id": "netherrack_chestplate"
       },
       "item_model": "minecraft:leather_chestplate",
       "minecraft:item_name": "Netherrack Chestplate",

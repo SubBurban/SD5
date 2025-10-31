@@ -17,7 +17,8 @@
         ]
       },
       "minecraft:custom_data": {
-        "TempModifier": -2
+        "TempModifier": -2,
+        "id": "sandstone_boots"
       },
       "minecraft:item_name": "Sandstone Boots"
     },

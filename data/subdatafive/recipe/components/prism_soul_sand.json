@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "S": [
+            "minecraft:soul_sand",
+            "minecraft:soul_soil"
+        ],
+        "X": "minecraft:gold_nugget",
+        "#": [
+            "minecraft:prismarine_crystals",
+            "minecraft:prismarine_shard"
+        ]
+    },
+    "pattern": [
+        "X#X",
+        "#S#",
+        "X#X"
+    ],
+    "result": {
+        "components": {
+            "minecraft:item_name": "Soul Ore",
+            "minecraft:item_model": "minecraft:gilded_blackstone",
+            "minecraft:lore": [
+                {
+                    "text": "Can be used to upgrade",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": "gear at the Gear Station",
+                    "color": "gray",
+                    "italic": false
+                },
+                "",
+                {
+                    "text": "It's a Block ... Ore is it?",
+                    "color": "dark_gray"
+                }
+            ],
+            "minecraft:custom_data": {
+                "id": "prism_soul_sand"
+            }
+        },
+        "count": 1,
+        "id": "minecraft:gold_nugget"
+    }
+}

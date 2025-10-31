@@ -20,7 +20,8 @@
         ]
       },
       "minecraft:custom_data": {
-        "TempModifier": 12
+        "TempModifier": 12,
+        "id": "netherrack_boots"
       },
       "item_model": "minecraft:leather_boots",
       "minecraft:item_name": "Netherrack Boots",
