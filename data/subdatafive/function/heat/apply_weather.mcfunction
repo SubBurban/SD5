@@ -1,0 +1,2 @@
+#Applies custom Weather effects
+execute if predicate tungsten:it_thunders if predicate tungsten:can_see_sky if predicate {condition:"minecraft:random_chance",chance:0.0104} run summon minecraft:lightning_bolt ~ ~ ~
