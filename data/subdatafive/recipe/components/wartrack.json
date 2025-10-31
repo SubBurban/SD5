@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "X": "minecraft:netherrack",
+        "#": "minecraft:nether_wart_block"
+    },
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "components": {
+            "minecraft:item_name": "Wartrack",
+            "minecraft:item_model": "minecraft:nether_wart_block",
+            "minecraft:lore": [
+                {
+                    "text": "Can be used to upgrade",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": "gear at the Gear Station",
+                    "color": "gray",
+                    "italic": false
+                }
+            ],
+            "minecraft:custom_data": {
+                "id": "wartrack"
+            }
+        },
+        "count": 1,
+        "id": "minecraft:feather"
+    }
+}

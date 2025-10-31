@@ -21,7 +21,7 @@
       },
       "minecraft:custom_data": {
         "TempModifier": 12,
-        "id": "netherrack_helmet"
+        "id": "netherrack_leggings"
       },
       "item_model": "minecraft:leather_leggings",
       "minecraft:item_name": "Netherrack Leggings",
