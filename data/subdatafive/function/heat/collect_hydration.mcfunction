@@ -9,3 +9,4 @@ scoreboard players reset @s calc-3
 execute if predicate subdatafive:smokey store result score @s calc-3 run random value 1..70
 scoreboard players operation @s thirst += @s calc-3
 execute if dimension minecraft:the_nether store result score @s calc-3 run random value 1..720
+scoreboard players operation @s thirst += @s calc-3

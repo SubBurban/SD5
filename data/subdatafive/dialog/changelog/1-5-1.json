@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:notice",
+  "title": "SubData 5 v1.5.1: Changelog",
+  "external_title": "Changelog v1.5.1",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "Fixed Bugs:\nCritical Error leading to essential processes being disabled\nHydration is not being affected by Nether\n\n"
+      }
+    ]
+  },
+  "action": {
+    "label": "Got it!"
+  }
+}
