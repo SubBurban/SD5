@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:notice",
+  "title": "SubData 5 v1.5 Halloween Update: Changelog",
+  "external_title": "Changelog v1.5",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "From October 31st - 31st 12025, the alias of major SD5 Updates will be a reference to the date they publicised\n\n"
+      },
+      {
+        "text": "Updated to 1.21.9/1.21.10\n\n"
+      },
+      {
+        "text": "Weather now influences the temperature and stuff\n\n"
+      },
+      {
+        "text": "Improved managing of custom blocks\n\n"
+      },
+      {
+        "text": "Added functionality for the Gear Station, accepting many custom Items (no Vanilla ones!)\n\n"
+      },
+      {
+        "text": "Soul Sand equipment is now upgraded from Netherrack equipment in the Gear Station\n\n"
+      },
+      {
+        "text": "Prismaridian equipment is now upgraded from Prismarine equipment in the Gear Station\n\n"
+      },
+      {
+        "text": "Added Wartrack Armour as a Netherrack Upgrade using the Gear Station\n\n"
+      },
+      {
+        "text": "Added the Sword of Agaminor using the Gear Station\n\n"
+      },
+      {
+        "text": "Added the Advanced Pick using the Gear Station\n\n"
+      },
+      {
+        "text": "Added a few components used in the Upgrading processes\n\n"
+      },
+      {
+        "text": "Unfortunately, all previously crafted equipment cannot be recognised by the Gear Station and has to be re-crafted :(\n\n"
+      },
+      {
+        "text": "Tungsten: Skylight is now measured at eye level instead of feet, and Tungsten's code is more compact\n\n"
+      },
+      {
+        "text": "Fixed Bugs:\nUnderground classification was broken (resulting in a ... survivable cave experience ...)\n\n"
+      }
+    ]
+  },
+  "action": {
+    "label": "Got it!"
+  }
+}

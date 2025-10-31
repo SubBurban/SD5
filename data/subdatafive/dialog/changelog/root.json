@@ -23,6 +23,6 @@
     "label": "Done",
     "width": 50
   },
-  "columns": 1,
+  "columns": 2,
   "dialogs": "#subdatafive:changelogs"
 }
