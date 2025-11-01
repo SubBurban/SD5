@@ -27,6 +27,7 @@
       "minecraft:item_name": "Netherrack Chestplate",
       "attribute_modifiers": [
         {
+          "slot": "chest",
           "id": "minecraft:armor.chestplate",
           "amount": 5,
           "type": "minecraft:armor",

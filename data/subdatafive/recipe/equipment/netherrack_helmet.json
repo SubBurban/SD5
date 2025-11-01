@@ -27,6 +27,7 @@
       "minecraft:item_name": "Netherrack Helmet",
       "attribute_modifiers": [
         {
+          "slot": "head",
           "id": "minecraft:armor.helmet",
           "amount": 2,
           "type": "minecraft:armor",

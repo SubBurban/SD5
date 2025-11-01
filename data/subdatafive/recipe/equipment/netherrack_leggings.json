@@ -27,6 +27,7 @@
       "minecraft:item_name": "Netherrack Leggings",
       "attribute_modifiers": [
         {
+          "slot": "legs",
           "id": "minecraft:armor.leggings",
           "amount": 4,
           "type": "minecraft:armor",

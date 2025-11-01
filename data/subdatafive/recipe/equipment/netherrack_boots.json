@@ -27,6 +27,7 @@
       "minecraft:item_name": "Netherrack Boots",
       "attribute_modifiers": [
         {
+          "slot": "feet",
           "id": "minecraft:armor.boots",
           "amount": 2,
           "type": "minecraft:armor",
