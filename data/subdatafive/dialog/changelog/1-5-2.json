@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:notice",
+  "title": "SubData 5 v1.5.2: Changelog",
+  "external_title": "Changelog v1.5.2",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "Fixed Bugs:\nArmour grants its stats even if in wrong slot\nSoul Sand Helmet is named \"Soul Sand Chestplate\"\n\n"
+      }
+    ]
+  },
+  "action": {
+    "label": "Got it!"
+  }
+}
