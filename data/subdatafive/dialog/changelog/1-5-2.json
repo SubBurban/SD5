@@ -6,7 +6,7 @@
     "type": "minecraft:plain_message",
     "contents": [
       {
-        "text": "Fixed Bugs:\nArmour grants its stats even if in wrong slot\nSoul Sand Helmet is named \"Soul Sand Chestplate\"\n\n"
+        "text": "Fixed Bugs:\nArmour grants its stats even if in wrong slot\nSoul Sand Helmet is falsely named \"Soul Sand Chestplate\"\nEquipment crafted using the Gear Station does never count as nether-safe\nHelmets crafted in the Gear Station do never display as Blocks\n\n"
       }
     ]
   },
