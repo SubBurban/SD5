@@ -1,5 +1,4 @@
 scoreboard players add .tungsten_debug.outside tungsten.calc 1
-scoreboard players set .tungsten_debug.outside_error tungsten.calc 23232323
 $data modify storage tungsten:main Int.AtLeast set from storage tungsten:main NaturalList[$(AtLeast)]
 execute if predicate tungsten:can_see_sky run return 1
 execute if data storage tungsten:main Int{AtLeast:16} run return fail
@@ -7,6 +6,7 @@ execute if data storage tungsten:main Int{AtLeast:1} run return 1
 execute unless block ~ ~ ~ #tungsten:lets_outside_through run return fail
 execute if block ~ ~ ~ #minecraft:doors[open=false] run return fail
 $execute unless predicate tungsten:light/$(AtLeast) run return fail
+scoreboard players set .tungsten_debug.outside_error tungsten.calc 23232323
 $execute if entity @n[type=marker,tag=outside_level_marker,distance=..0.1,scores={tungsten.calc=..$(Distance)}] run return fail
 execute if entity @n[type=marker,tag=outside_level_marker,distance=..0.1] run kill @e[type=marker,tag=outside_level_marker,distance=..0.1]
 summon marker ~ ~ ~ {Tags:["temporary","outside_level_marker","new"]}
