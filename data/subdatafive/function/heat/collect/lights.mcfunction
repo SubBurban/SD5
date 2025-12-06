@@ -1,5 +1,4 @@
 execute store result score @s outsight run function tungsten:outside_level/get
-kill @e[type=marker,tag=outside_level_marker,tag=temporary]
 
 execute if predicate tungsten:light/15 run return run scoreboard players set @s light 15
 execute if predicate tungsten:light/14 run return run scoreboard players set @s light 14

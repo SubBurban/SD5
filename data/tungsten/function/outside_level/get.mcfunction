@@ -1,3 +1,4 @@
+scoreboard players reset .tungsten_debug.outside tungsten.calc
 execute store result storage tungsten:main Int.Trualse int 1 run function tungsten:outside_level/at_least {AtLeast:15,Distance:0}
 execute unless data storage tungsten:main Int{Trualse:0} run return 15
 execute store result storage tungsten:main Int.Trualse int 1 run function tungsten:outside_level/at_least {AtLeast:14,Distance:0}
