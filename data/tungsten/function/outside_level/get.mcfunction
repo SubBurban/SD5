@@ -17,6 +17,7 @@ execute store result storage tungsten:main Int.Trualse int 1 run function tungst
 execute unless data storage tungsten:main Int{Trualse:0} run return 8
 execute store result storage tungsten:main Int.Trualse int 1 run function tungsten:outside_level/at_least {AtLeast:7,Distance:0}
 execute unless data storage tungsten:main Int{Trualse:0} run return 7
+return 0
 execute store result storage tungsten:main Int.Trualse int 1 run function tungsten:outside_level/at_least {AtLeast:6,Distance:0}
 execute unless data storage tungsten:main Int{Trualse:0} run return 6
 execute store result storage tungsten:main Int.Trualse int 1 run function tungsten:outside_level/at_least {AtLeast:5,Distance:0}
@@ -29,4 +30,3 @@ execute store result storage tungsten:main Int.Trualse int 1 run function tungst
 execute unless data storage tungsten:main Int{Trualse:0} run return 2
 execute store result storage tungsten:main Int.Trualse int 1 run function tungsten:outside_level/at_least {AtLeast:1,Distance:0}
 execute unless data storage tungsten:main Int{Trualse:0} run return 1
-return 0
