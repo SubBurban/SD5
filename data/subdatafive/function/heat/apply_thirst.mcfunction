@@ -4,4 +4,5 @@ scoreboard players operation @s calc-3 /= #400 calc-1
 scoreboard players operation @s hydration -= @s calc-3
 scoreboard players operation @s calc-3 *= #400 calc-1
 scoreboard players operation @s thirst -= @s calc-3
-execute unless score @s hydration matches 0.. run scoreboard players set @s hydration 0
+scoreboard players operation @s hydration > #0 calc-1
+scoreboard players operation @s hydration < #40 calc-1

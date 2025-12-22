@@ -11,7 +11,8 @@
     "components": {
       "minecraft:consumable": {
         "consume_seconds": 1,
-        "on_consume_effects": []
+        "on_consume_effects": [],
+        "sound": "item.honey_bottle.drink"
       },
       "minecraft:food": {
         "nutrition": 1,
