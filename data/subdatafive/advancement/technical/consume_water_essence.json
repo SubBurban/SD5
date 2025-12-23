@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "consume": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "id": "water_essence"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "subdatafive:event/consume_water_essence"
+  }
+}

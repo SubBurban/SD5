@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:potion",
+  "result": {
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 0.5,
+        "on_consume_effects": [],
+        "sound": "minecraft:entity.generic.drink",
+        "has_consume_particles": false
+      },
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 3,
+        "can_always_eat": true
+      },
+      "minecraft:item_name": "Essence of Water",
+      "minecraft:item_model": "minecraft:blue_dye",
+      "minecraft:lore": [
+        {
+          "text": "So precious.",
+          "color": "dark_gray"
+        }
+      ],
+      "minecraft:custom_data": {
+        "id": "water_essence"
+      }
+    },
+    "id": "minecraft:feather"
+  },
+  "category": "food",
+  "cookingtime": 7200
+}

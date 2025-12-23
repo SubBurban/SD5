@@ -1,4 +1,8 @@
+#Creative Helmet
 execute if data entity @s equipment.head.components."minecraft:custom_data"{Special:"Creative Helmet"} run scoreboard players set @s temperature 18
+#Bounded Armours (Endgame)
+execute if data entity @s equipment.chest.components."minecraft:custom_data"{TempUpperBound:true} if data entity @s equipment.legs.components."minecraft:custom_data"{TempUpperBound:true} if data entity @s equipment.feet.components."minecraft:custom_data"{TempUpperBound:true} if data entity @s equipment.head.components."minecraft:custom_data"{TempUpperBound:true} run scoreboard players operation @s temperature < #40 calc-1
+execute if data entity @s equipment.chest.components."minecraft:custom_data"{TempLowerBound:true} if data entity @s equipment.legs.components."minecraft:custom_data"{TempLowerBound:true} if data entity @s equipment.feet.components."minecraft:custom_data"{TempLowerBound:true} if data entity @s equipment.head.components."minecraft:custom_data"{TempLowerBound:true} run scoreboard players operation @s temperature > #3 calc-1
 $execute unless data storage subdatafive:main PlayerData[{UUID:$(UUID)}] run function subdatafive:data/create_player_data with entity @s
 execute store result storage subdatafive:main Int int 1 run scoreboard players get @s temperature
 $data modify storage subdatafive:main PlayerData[{UUID:$(UUID)}].Temperatures append from storage subdatafive:main Int

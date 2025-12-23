@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": [
+            "minecraft:obsidian"
+        ]
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "components": {
+            "minecraft:item_name": "Pure Obsidian",
+            "minecraft:item_model": "minecraft:obsidian",
+            "enchantment_glint_override": true,
+            "minecraft:lore": [
+                {
+                    "text": "Can be used to upgrade",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": "gear at the Gear Station",
+                    "color": "gray",
+                    "italic": false
+                },
+                "",
+                {
+                    "text": "Morebsidian",
+                    "color": "dark_gray"
+                }
+            ],
+            "minecraft:custom_data": {
+                "id": "rich_obsidian"
+            }
+        },
+        "count": 1,
+        "id": "minecraft:black_dye"
+    }
+}

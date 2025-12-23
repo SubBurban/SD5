@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "netherite_ingot"
+    ],
+    "result": {
+        "components": {
+            "minecraft:item_name": "Netherite Nugget",
+            "minecraft:item_model": "minecraft:disc_fragment_5",
+            "minecraft:lore": [
+                {
+                    "text": "Can be used to upgrade",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": "gear at the Gear Station",
+                    "color": "gray",
+                    "italic": false
+                },
+                "",
+                {
+                    "text": "Who would have thought such",
+                    "color": "dark_gray"
+                },
+                {
+                    "text": "big things could get small?",
+                    "color": "dark_gray"
+                }
+            ],
+            "minecraft:custom_data": {
+                "id": "netherite_nugget"
+            }
+        },
+        "count": 9,
+        "id": "minecraft:feather"
+    }
+}
