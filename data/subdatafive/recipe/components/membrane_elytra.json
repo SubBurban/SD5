@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:phantom_membrane"
+  },
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": "Membrane Elytra",
+      "minecraft:lore": [
+        {
+          "text": "Can be used as an Upgrade",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "inside the Gear Station",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "id": "membrane_elytra"
+      },
+      "!minecraft:equippable": {},
+      "!minecraft:repairable": {},
+      "minecraft:damage": 432
+    },
+    "count": 1,
+    "id": "minecraft:elytra"
+  }
+}

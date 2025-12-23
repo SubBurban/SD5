@@ -35,3 +35,4 @@ execute if biome ~ ~ ~ desert positioned over ocean_floor if entity @s[dy=80] ru
 execute if biome ~ ~ ~ desert positioned over motion_blocking_no_leaves if entity @s[dy=80] run return run function subdatafive:heat/collect_env_outside
 execute if biome ~ ~ ~ desert unless score @s outsight matches 12.. run return run function subdatafive:heat/collect_env_inside
 execute if dimension minecraft:the_nether run function subdatafive:heat/collect_env_nether
+execute if dimension minecraft:the_end run function subdatafive:heat/collect_env_end
