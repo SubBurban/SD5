@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:notice",
+  "title": "SubData 5 v1.6 Endgame Update: Changelog",
+  "external_title": "Changelog v1.6",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "Added Water Essence (also drinkable), Pure Obsidian, Netherite Nugget, and the Membrane Elytra, all makeable using the crafting table or the furnace/BF. Recipes will be unlocked like vanilla\n\n"
+      },
+      {
+        "text": "Added five new late-game Armour sets. There now is a path to the final armour: \nGolden to Netherrack, to Wartrack. \nIron to Prismarine, to Prismaridian, to Pure Obsidian. \nGolden to Netherrack, to Soul Sand, to Soulite, to Soutralith, to Overlord\n\n"
+      },
+      {
+        "text": "Opened the End, which now has temperature and hydration. CAUTION: High weirdness. Only enter with a strong suit\n\n"
+      },
+      {
+        "text": "Hydration now ranges slightly over the shown bar, allowing for thirst saturation\n\n"
+      },
+      {
+        "text": "Prismarice now has a more fitting sound\n\n"
+      },
+      {
+        "text": "Tungsten: Investigated the major performance issue, installed debug features and fixed a few problems already\n\n"
+      },
+      {
+        "text": "Fixed Bugs:\nHydration could sometimes be increased without any bound\n\n"
+      }
+    ]
+  },
+  "action": {
+    "label": "Got it!"
+  }
+}
