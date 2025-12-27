@@ -3,7 +3,9 @@ execute if score @s hydration matches 16.. if score @s heat matches 2.. if predi
 #Endgame Items
 execute if data entity @s equipment.head.components."minecraft:custom_data"{StayHydrated:true} run scoreboard players remove @s thirst 48
 
-#Prismarine Armour
+#Hydrating Armours (disabling passive Hydration loss)
+execute if data entity @s equipment.chest.components."minecraft:custom_data"{Hydrate:true} if data entity @s equipment.legs.components."minecraft:custom_data"{Hydrate:true} if data entity @s equipment.feet.components."minecraft:custom_data"{Hydrate:true} if data entity @s equipment.head.components."minecraft:custom_data"{Hydrate:true} run return fail
+#Prismarine Armour (Legacy)
 execute if data entity @s equipment.chest.components."minecraft:custom_data"{OverHydrate:true} if data entity @s equipment.legs.components."minecraft:custom_data"{OverHydrate:true} if data entity @s equipment.feet.components."minecraft:custom_data"{OverHydrate:true} if data entity @s equipment.head.components."minecraft:custom_data"{OverHydrate:true} run return fail
 #Passive Hydration Loss
 scoreboard players add @s thirst 5
