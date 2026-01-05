@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:notice",
+  "title": "SubData 5 v1.6.2: Changelog",
+  "external_title": "Changelog v1.6.2",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "Added a recipe for Paper, now obtainable by \"washing\" Cacti\n\n"
+      },
+      {
+        "text": "Fixed Bugs:\nAdvanced Pick does never state which blocks are affected by it\n\n"
+      }
+    ]
+  },
+  "action": {
+    "label": "Got it!"
+  }
+}
