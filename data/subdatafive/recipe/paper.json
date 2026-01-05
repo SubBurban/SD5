@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": [
+      "minecraft:cactus"
+    ],
+    "X": "minecraft:water_bucket"
+  },
+  "pattern": [
+    "#X#"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:paper"
+  }
+}
