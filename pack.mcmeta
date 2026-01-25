@@ -3,10 +3,10 @@
 		"pack_format": 81,
 		"supported_formats": {
 			"min_inclusive": 77,
-			"max_inclusive": 88
+			"max_inclusive": 94
 		},
 		"min_format": 77,
-		"max_format": [88,0],
+		"max_format": [94,1],
 		"description": [
 			{
 				"text": "SubData 5",
@@ -26,6 +26,17 @@
 					"text": "v1.6.2"
 				}
 			]
+		]
+	},
+	"overlays": {
+		"entries": [
+			{
+				"directory": "legacy_worldgen",
+				"formats": {
+					"min_inclusive": 77,
+					"max_inclusive": 81
+				}
+			}
 		]
 	}
 }
