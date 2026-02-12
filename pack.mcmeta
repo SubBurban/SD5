@@ -8,24 +8,24 @@
 		"min_format": 77,
 		"max_format": [94,1],
 		"description": [
-			{
-				"text": "SubData 5",
-				"color": "#E5593D"
-			},
-			{
-				"text": "\nDeveloped by TrenceBence\nThe official Datapack for SubBurban 5",
-				"color": "dark_aqua"
-			},
 			[
 				{
+					"text": "SubData 5",
+					"color": "#E5593D"
+				},
+				{
 					"color": "gray",
-					"text": "\nVersion: "
+					"text": ", Version: "
 				},
 				{
 					"color": "yellow",
 					"text": "v1.6.2"
 				}
-			]
+			],
+			{
+				"text": "\nMade by TrenceBence",
+				"color": "dark_aqua"
+			}
 		]
 	},
 	"overlays": {
