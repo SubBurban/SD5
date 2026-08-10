@@ -1,5 +1,5 @@
 #On Warm Blocks
-execute if block ~ ~-0.1 ~ #subdatafive:warm_block unless block ~ ~ ~ water run scoreboard players add @s temperature 5
+execute if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{stepping_on:{block:{blocks:"#subdatafive:warm_block"}}}} unless block ~ ~ ~ water run scoreboard players add @s temperature 5
 #Height
 execute if score @s calc-1 matches ..40 run scoreboard players remove @s temperature 9
 execute if score @s calc-1 matches 200.. run scoreboard players remove @s temperature 5
