@@ -1,6 +1,5 @@
 scoreboard players set @s temperature 0
 execute store result score @s calc-1 run data get entity @s Pos[1]
-execute store result score @s calc-2 run time query daytime
 #Near Hot Blocks
 execute if predicate subdatafive:near/hot_block run scoreboard players add @s temperature 45
 #Fluids

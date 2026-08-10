@@ -16,6 +16,14 @@
         "color": "green"
       },
       " on Social Media!"
+      ,{
+        "text": "\n\nReleases and Changelogs after v1.6.2 are available on GitHub.",
+        "color": "#e0e0e0",
+        "click_event": {
+          "action": "open_url",
+          "url": "https://github.com/subburban/sd5"
+        }
+      }
     ]
   },
   "external_title": "SD5 Changelogs",
