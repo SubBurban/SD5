@@ -3,10 +3,10 @@
 		"pack_format": 81,
 		"supported_formats": {
 			"min_inclusive": 77,
-			"max_inclusive": 94
+			"max_inclusive": 107
 		},
 		"min_format": 77,
-		"max_format": [94,1],
+		"max_format": [107,1],
 		"description": [
 			[
 				{
@@ -19,7 +19,7 @@
 				},
 				{
 					"color": "yellow",
-					"text": "v1.6.3"
+					"text": "v1.6.4"
 				}
 			],
 			{
@@ -36,6 +36,15 @@
 					"min_inclusive": 77,
 					"max_inclusive": 81
 				}
+			},
+			{
+				"directory": "legacy_time",
+				"formats": {
+					"min_inclusive": 77,
+					"max_inclusive": 96
+				},
+				"min_format": 77,
+				"max_format": 96
 			}
 		]
 	}
